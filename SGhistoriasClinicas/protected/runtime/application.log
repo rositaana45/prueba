@@ -1,0 +1,396 @@
+2017/02/28 01:05:25 [error] [exception.CHttpException.404] CHttpException: The requested view "aboutgii" was not found. in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('aboutgii')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/practica1/index.php?r=site/page&view=aboutgii
+---
+2017/02/28 01:07:15 [error] [exception.CHttpException.404] CHttpException: The requested view "aboutgii" was not found. in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('aboutgii')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/practica1/index.php?r=site/page&view=aboutgii
+---
+2017/03/04 01:45:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/04 01:50:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/04 01:51:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/04 01:52:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/04 01:56:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/04 01:56:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/04 01:56:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/05 02:57:38 [error] [php] Undefined variable: modelo (C:\xampp\htdocs\yii\practica1\protected\views\hola\index.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): HolaController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): HolaController->renderPartial()
+#2 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(8): HolaController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\practica1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/practica1/hola/index
+in C:\xampp\htdocs\yii\practica1\protected\views\hola\index.php (2)
+in C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php (8)
+in C:\xampp\htdocs\yii\practica1\index.php (13)
+2017/03/05 03:01:00 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "finAll". in C:\xampp\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('finAll', Array)
+#1 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(7): CActiveRecord->__call('finAll', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/05 03:01:07 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "finAll". in C:\xampp\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('finAll', Array)
+#1 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(7): CActiveRecord->__call('finAll', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/05 03:01:08 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "finAll". in C:\xampp\htdocs\yii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(225): CComponent->__call('finAll', Array)
+#1 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(7): CActiveRecord->__call('finAll', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('hola/index')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/practica1/hola/index
+---
+2017/03/05 03:02:06 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\practica1\protected\views\hola\index.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): HolaController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): HolaController->renderPartial()
+#2 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(9): HolaController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\practica1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/practica1/hola/index
+in C:\xampp\htdocs\yii\practica1\protected\views\hola\index.php (2)
+in C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php (9)
+in C:\xampp\htdocs\yii\practica1\index.php (13)
+2017/03/05 03:03:30 [error] [php] include(CActive.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii\practica1\protected\models\Users.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#4 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(7): model()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\yii\practica1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/practica1/hola/index
+in C:\xampp\htdocs\yii\practica1\protected\models\Users.php (2)
+in C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php (7)
+in C:\xampp\htdocs\yii\practica1\index.php (13)
+2017/03/05 03:03:34 [error] [php] include(CActive.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii\practica1\protected\models\Users.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#4 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(7): model()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\yii\practica1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/practica1/hola/index
+in C:\xampp\htdocs\yii\practica1\protected\models\Users.php (2)
+in C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php (7)
+in C:\xampp\htdocs\yii\practica1\index.php (13)
+2017/03/05 03:03:35 [error] [php] include(CActive.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\yii\practica1\protected\models\Users.php(2): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#4 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(7): model()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\yii\practica1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/practica1/hola/index
+in C:\xampp\htdocs\yii\practica1\protected\models\Users.php (2)
+in C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php (7)
+in C:\xampp\htdocs\yii\practica1\index.php (13)
+2017/03/05 03:03:59 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\practica1\protected\views\hola\index.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): HolaController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): HolaController->renderPartial()
+#2 C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php(9): HolaController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): HolaController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): HolaController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\practica1\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/practica1/hola/index
+in C:\xampp\htdocs\yii\practica1\protected\views\hola\index.php (2)
+in C:\xampp\htdocs\yii\practica1\protected\controllers\HolaController.php (9)
+in C:\xampp\htdocs\yii\practica1\index.php (13)
+2017/06/04 23:33:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\yii\practica1\protected\controllers\PacientecontrollerController.php (73)
+in C:\xampp\htdocs\yii\practica1\index.php (13)
+2017/06/04 23:33:08 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yii\practica1\protected\controllers\PacientecontrollerController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PacientecontrollerController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pacientecontrol...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\practica1\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/practica1/pacientecontroller/create
+HTTP_REFERER=http://localhost:8080/yii/practica1/pacientecontroller/create
+---
+2017/06/05 22:42:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php (73)
+in C:\xampp\htdocs\yii\cualquiera\index.php (13)
+2017/06/05 22:42:44 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PacientecontrollerController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pacientecontrol...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\cualquiera\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/cualquiera/pacientecontroller/create
+HTTP_REFERER=http://localhost:8080/yii/cualquiera/pacientecontroller/create
+---
+2017/06/05 22:43:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php (73)
+in C:\xampp\htdocs\yii\cualquiera\index.php (13)
+2017/06/05 22:43:15 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PacientecontrollerController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pacientecontrol...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\cualquiera\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/cualquiera/pacientecontroller/create
+HTTP_REFERER=http://localhost:8080/yii/cualquiera/pacientecontroller/create
+---
+2017/06/05 22:44:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php (73)
+in C:\xampp\htdocs\yii\cualquiera\index.php (13)
+2017/06/05 22:44:32 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PacientecontrollerController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pacientecontrol...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\cualquiera\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/cualquiera/pacientecontroller/create
+HTTP_REFERER=http://localhost:8080/yii/cualquiera/pacientecontroller/create
+---
+2017/06/05 22:47:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php (73)
+in C:\xampp\htdocs\yii\cualquiera\index.php (13)
+2017/06/05 22:47:01 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`examen`.`paciente`, CONSTRAINT `FK_paciente_doctor` FOREIGN KEY (`id_doctor`) REFERENCES `doctor` (`id_doctor`) ON DELETE CASCADE ON UPDATE CASCADE). The SQL statement executed was: INSERT INTO `paciente` (`id_paciente`, `nombre`, `sexo`, `telefono`) VALUES (:yp0, :yp1, :yp2, :yp3) in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\yii\cualquiera\protected\controllers\PacientecontrollerController.php(73): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PacientecontrollerController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pacientecontrol...')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\cualquiera\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/cualquiera/pacientecontroller/create
+HTTP_REFERER=http://localhost:8080/yii/cualquiera/pacientecontroller/create
+---
+2017/06/07 21:26:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "doctor/view". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('doctor/view')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\SGhistoriasClinicas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/SGhistoriasClinicas/doctor/1
+---
+2017/06/07 21:26:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "doctor". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('doctor')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\SGhistoriasClinicas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/SGhistoriasClinicas/doctor/
+---
+2017/06/07 21:42:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/IMG.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/IMG.jpg')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\SGhistoriasClinicas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/SGhistoriasClinicas/images/IMG.jpg
+HTTP_REFERER=http://localhost:8080/yii/SGhistoriasClinicas/site/index
+---
+2017/06/07 22:00:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/UNI.png". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/UNI.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\SGhistoriasClinicas\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/SGhistoriasClinicas/images/UNI.png
+HTTP_REFERER=http://localhost:8080/yii/SGhistoriasClinicas/site/page?view=about
+---

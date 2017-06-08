@@ -1,0 +1,12 @@
+phpMyImporter
+-------------
+Version: 1.00
+Copyright (c) 2009 by Micky Holdorf
+Holdorf.dk/Software - micky.holdorf@gmail.com
+GNU Public License http://opensource.org/licenses/gpl-license.php
+
+
+Introduction
+------------
+phpMyImporter is a php class, that can be used to import database tables into a MySQL database from a sql file. This is useful if filesize of the sql file is too large to be imported with phpMyAdmin.
+

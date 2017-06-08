@@ -1,0 +1,73 @@
+<?php
+require_once('../lib/pdf/mpdf.php');
+include_once('../entidad/conexion.php');
+  $db = new Conexion;
+                 
+        $db->conectar();
+                $query = "CALL mostrar_bitacora()";
+                $resultadoEmpresa = $db->consulta($query);
+
+$html = ' <header class="clearfix">
+      <div id="logo">
+        <img src="../img/logo1mpdf.png" width="10%">
+      </div>
+      <h1>Bitacora</h1>
+      <div id="company" class="clearfix">
+        <div>Company Name</div>
+        <div>455 Foggy Heights,<br /> AZ 85004, US</div>
+        <div>(602) 519-0450</div>
+        <div><a href="mailto:company@example.com">company@example.com</a></div>
+      </div>
+      <div id="project">
+        <div><span>PROJECT</span> Website development</div>
+        <div><span>CLIENT</span> John Doe</div>
+        <div><span>ADDRESS</span> 796 Silver Harbour, TX 79273, US</div>
+        <div><span>EMAIL</span> <a href="mailto:john@example.com">john@example.com</a></div>
+        <div><span>DATE</span> August 17, 2015</div>
+        <div><span>DUE DATE</span> September 17, 2015</div>
+      </div>
+    </header>
+    <main>
+      <table >
+        <thead>
+          <tr>
+            <th class="service">inicio</th>
+            <th class="desc">nombreUsuario</th>
+            <th>id</th>
+            <th>Operacion</th>
+            <th>Detalle</th>
+            <th>Fecha/Hora</th>
+          </tr>
+        </thead>
+        <tbody>';
+ while ($fila=$db->fetch_array($resultadoEmpresa)){
+$html.='
+        <tr>
+            <td class="service">'.$fila['inicio'].'</td>
+            <td class="service">'.$fila['nombreUsuario'].'</td>
+            <td class="service">'.$fila['idOperacion'].'</td>
+            <td class="service">'.$fila['Operacion'].'</td>
+            <td class="total">'.$fila['Detalle'].'</td>
+            <td class="service">'.$fila['horaFecha'].'</td>    
+          </tr>
+          <tr>
+            <td colspan="6" class="grand total"></td>
+          </tr>
+          ';
+
+}
+        $html.= ' 
+
+        </tbody>
+      </table>
+      <div id="notices">
+        <div>NOTICE:</div>
+        <div class="notice">A finance charge of 1.5% will be made on unpaid balances after 30 days.</div>
+      </div>
+    </main>';
+$mpdf=new mPDF('c','A4');
+$css=file_get_contents('../bootstrap/css/style1mpdf.css');   
+$mpdf->writeHTML($css,1);
+$mpdf->writeHTML($html);
+$mpdf->Output('reporte.pdf','I');
+?>
